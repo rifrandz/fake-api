@@ -1,0 +1,128 @@
+{
+    "templates" : [
+        {
+            "id": "4ae41362-ca8c-434c-6ae9-1d5c0181b092",
+            "name": "tmp1",
+            "language": "id",
+            "header": null,
+            "body": "{{1}} adalah kode verifikasi di {{2}}. Masukan kode untuk melanjutkan proses. Salam.",
+            "footer": null,
+            "status": "PENDING"
+        },
+        {
+            "id": "44a4d690-8c81-4947-8220-fb03a6608831",
+            "name": "tmp2",
+            "language": "id",
+            "header": {
+                "format": "DOCUMENT"
+            },
+            "body": "Dear*{{1}}*\n\nBerikut saya kirimkan jadwal untuk seluruh karyawan* {{2}}*, mohon atas nama *{{3}}* mengikuti aturan dan jadwal yang telah di tetapkan.\nAtas perhatiannya terimakasih.\n\nHR Departement",
+            "footer": null,
+            "status": "PENDING"
+        },
+        {
+            "id": "06fb7b81-7d25-497f-a68c-8eb4c56d2bb9",
+            "name": "tmp3",
+            "language": "en_US",
+            "header": {
+                "format": "IMAGE",
+                "example": "#<Hashie::Mash header_handle=#<Hashie::Array [\"https://blabla.blabla.net/v/x45.12345-12/12345_2116511138483654_4995822584522542259_n.jpg\"]>>"
+            },
+            "body": "Buat natal Anda lebih berwarna dengan Produk Terbaru - KF0T-S {{1}}",
+            "footer": null,
+            "status": "APPROVED"
+        },
+        {
+            "id": "4e0e37df-4dd2-49db-3e70-af8ca2b704c6",
+            "name": "tmp8",
+            "language": "en",
+            "header": null,
+            "body": "Terimakasih anda telah terdaftar.\n\nNama : {{1}}",
+            "footer": null,
+            "status": "APPROVED"
+        },
+        {
+            "id": "84e41e4a-89d4-4bf6-9c9e-8e0e515f009a",
+            "name": "tmp4",
+            "language": "id",
+            "header": {
+                "format": "IMAGE",
+                "example": "#<Hashie::Mash header_handle=#<Hashie::Array [\"https://blabla.blabla.net/v/x45.12345-12/12345_320877913493385_977385258095953024_n.jpg\"]>>"
+            },
+            "body": "Yth, {{1}}\nWelcome, *are* you enjoying _this picture_?",
+            "footer": null,
+            "status": "REJECTED"
+        },
+        {
+            "id": "8615faa-0f2b-4cc0-b8b4-6591a9fb9cc97",
+            "name": "tmp5",
+            "language": "id",
+            "header": null,
+            "body": "halo {{1}}",
+            "footer": null,
+            "status": "APPROVED"
+        },
+        {
+            "id": "86588800-a32e-4ccd-af8b-56f03d4b491c",
+            "name": "tmp6",
+            "language": "id",
+            "header": {
+                "format": "DOCUMENT",
+                "example": "#<Hashie::Mash header_handle=#<Hashie::Array [\"https://blabla.blabla.net/v/x45.12345-12/12345_295395913675368_8442082088056021269_n.pdf\"]>>"
+            },
+            "body": "Silahkan cek informasi di dokumen terlampir.\n_Terimakasih._",
+            "footer": null,
+            "status": "APPROVED"
+        },
+        {
+            "id": "3f75b3e3-781a-4350-b4d7-a8884c5b69e4",
+            "name": "tmp7",
+            "language": "id",
+            "header": {
+                "format": "VIDEO",
+                "example": "#<Hashie::Mash header_handle=#<Hashie::Array [\"https://blabla.blabla.net/v/x45.12345-12/12345_352492113135368_8692932028655282287_n.mp4\"]>>"
+            },
+            "body": "hallo kak di bulan januari ini kita ada promo nih buat kamu nih",
+            "footer": null,
+            "status": "APPROVED"
+        }
+    ],
+    "channels" : [
+        {
+            "id": "5fc16401-31f4-8627-bc27-5974930c66d8",
+            "webhook": "MpVsShF-STeItb3YYrjJ1A",
+            "settings": {
+                "domain_server": "https://api-sandbox.nusasms.net",
+                "authorization": "JKkdifhrj388sl3Knl29M4iNKasdfkR",
+                "account_name": "Testing",
+                "server_wa_id": "628123456789"
+            },
+            "organization_id": "as11df4j-as651-47s1q-96c7-00adsa311d39",
+            "created_at": "2022-05-20T07:00:57.784+00:00"
+        },
+        {
+            "id": "b2287ced-b797-4cce-4dc0-6ebc2cc2da1c",
+            "webhook": "j2BtrvWJtDCPoJELLFrzNw",
+            "settings": {
+                "domain_server": "https://api-sandbox.nusasms.net",
+                "authorization": "JKkdifhrj388sl3Knl29M4iNKasdfkR",
+                "account_name": "Development",
+                "server_wa_id": "628123456789"
+            },
+            "organization_id": "as11df4j-as651-47s1q-96c7-00adsa311d39",
+            "created_at": "2021-11-22T14:57:15.154+00:00"
+        },
+        {
+            "id": "96a9d943-7111-7173-894b-74c4ad52ef18",
+            "webhook": "5PgwIUHrm6k20v9pFgHxsQ",
+            "settings": {
+                "domain_server": "https://api-sandbox.nusasms.net",
+                "authorization": "JKkdifhrj388sl3Knl29M4iNKasdfkR",
+                "account_name": "Sandbox",
+                "server_wa_id": "628123456789"
+            },
+            "organization_id": "as11df4j-as651-47s1q-96c7-00adsa311d39",
+            "created_at": "2021-11-22T14:47:20.747+00:00"
+        }
+    ]
+}
